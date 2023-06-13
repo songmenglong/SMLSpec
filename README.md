@@ -91,9 +91,9 @@ s.dependency 'Alamofire'
 # 
 s.source_files = '' 
 
-pod repo push SMLSpecs SMLTool.podspec --allow-warnings 
+pod repo push SMLSpec SMLTool.podspec --allow-warnings 
 
-pod repo push SMLSpecs SMLTool.podspec --allow-warnings 
+pod repo push SMLSpec SMLTool.podspec --allow-warnings 
 
 # 使用方法
 # 1.创建库
@@ -103,7 +103,7 @@ pod repo push SMLSpecs SMLTool.podspec --allow-warnings
 
 pod repo push SMLSpec SMLTool.podspec --allow-warnings  #前面是本地Repo名字 后面是podspec名字（如果你上一步验证的时候有--allow-warnings，那么这个提交命令也要加--allow-warnings）
 
-pod repo push SMLSpecs SMLTool.podspec --allow-warnings
+pod repo push SMLSpec SMLTool.podspec --allow-warnings
 
 更新仓库
 pod repo update --verbose
